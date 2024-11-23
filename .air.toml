@@ -1,0 +1,8 @@
+# .air.toml
+[build]
+  cmd = "go run ./"
+  bin = "./tmp/main" # Temporary binary file
+  include_ext = ["go"]
+
+[log]
+  level = "debug"
